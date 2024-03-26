@@ -7,14 +7,14 @@ function isPalindrome(str) {
 
   
 // Normalize the input string:
-str = str.toLowerCase().replace(/[^a-z0-9]/gi, '');
+str1 = str.toLowerCase().replace(/[^a-z0-9]/gi, '');
 
 // Compare characters from both ends:
 let left = 0;
-let right = str.length - 1;
+let right = str1.length - 1;
 
 while (left < right) {
-  if (str[left] !== str[right]) {
+  if (str1[left] !== str1[right]) {
     return false; // Not a palindrome
   }
   left++;
