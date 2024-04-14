@@ -16,8 +16,7 @@ function calculateExecutionTime(n) {
     const endTime = new Date().getTime();
     const timeElapsed = (endTime - startTime) / 1000; 
 
-    console.log(`Total sum from 1 to ${n}: ${sum}`);  // Log the sum
-    console.log(`Time to calculate: ${timeElapsed} seconds`);
+    console.log(`Total sum from 1 to ${n}: ${sum} :- Time to calculate: ${timeElapsed}`);  // Log the sum
 
     return timeElapsed; // You can still return the time if needed
 }
