@@ -9,4 +9,9 @@ class Animal {
   }
 }
 
+let co = new Animal("cow", 4);
+let donk = new Animal("donky", 4);
+
+console.log(co,donk);
+
 

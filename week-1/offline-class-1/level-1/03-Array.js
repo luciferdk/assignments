@@ -55,7 +55,7 @@ function forEachExample(arr) {
   console.log("Original Array:", arr);
 
   arr.forEach(function(item, index) {
-    console.log(item, index);
+    console.log(index,item);
   });
 }
 forEachExample([1, 2, 3]);
